@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+page-chat {
+  font-family: 'Encode Sans Expanded', sans-serif;
+  ion-footer {
+    padding: 0px!important;
+  }
+  .innerMsg {
+    padding: 5px;
+    margin: 3px;
+  }
+  li.username {
+    width: 100%;
+    font-size: 12px;
+    color: #888;
+    display: flex;
+    justify-content: inherit;
+  }
+  .messageContent {
+    font-size: 18px;
+    color: #fff;
+    padding:6px;
+    background: color($colors, 'primary');
+    border-radius: 8px;
+    margin: 5px;
+  }
+  ul li {
+    text-decoration: none;
+  }
+  ul.innerMsg.msgLeft{
+    width: fit-content;
+  }
+  li.messageContent {
+    width: fit-content;
+  }
+  .messageContent::after {
+    //clear: both;
+  }
+  ul.innerMsg.msgRight {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .message.special {
+    float: none!important;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .message.special .messageContent {
+    background: transparent;
+    text-align: center;
+    color: #808080;
+    border-bottom: #eee solid 3px;
+  }
+  .msgLeft .messageContent {
+    float: left;
+  }
+  .msgRight {
+    float: right;
+  }
+  .msgRight li.username {
+    display: none;
+  }
+  .msgRight .messageContent {
+    background: color($colors, 'secondary');
+  }
+}

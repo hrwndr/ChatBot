@@ -1,0 +1,36 @@
+
+<ion-header>
+    <ion-title><span class="title">ChatBot</span><br/>
+    <span class="subtitle">A Chat Room For Everyone.</span>
+  </ion-title>
+</ion-header>
+<ion-content padding class="bg" style="overflow: hidden;">
+  <h1 style="text-align:center;padding-top:5%;">LOGIN</h1>
+  <p style="text-align:center;">Please Login To Continue</p>
+    <!--<ion-list>
+
+  <ion-item>
+    <ion-label floating>Your Name</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+  </ion-item>
+
+</ion-list>
+<button ion-button full (click)="logIn()">LogIn&nbsp;<ion-icon name="ios-log-in"></ion-icon></button>
+<h5 id="or" style="text-align:center;background:#fff;padding:3px;">OR</h5>
+<h5 style="text-align:center;border-top:2px solid #ddd;margin-bottom:20px;"></h5>-->
+<button ion-button full color="fb" (click)="logInwithfb()"><ion-icon name="logo-facebook"></ion-icon>&nbsp;&nbsp;LogIn with facebook</button>
+<br>
+<button ion-button full color="google" (click)="logInwithgoogle()"><ion-icon name="logo-google"></ion-icon>&nbsp;&nbsp;LogIn with Google</button>
+<br>
+<button ion-button full color="twitter" (click)="logInwithtwitter()"><ion-icon name="logo-twitter"></ion-icon>&nbsp;&nbsp;LogIn with twitter</button>
+<br>
+<ion-card class="about">
+  <ion-card-content>
+  <h2>About :</h2>
+  <h3>ChatBot is made using Ionic 3 and its just serves practice purposes for Developer.</h3>
+  </ion-card-content>
+</ion-card>
+</ion-content>
+<ion-footer>
+    &copy; 2018 - Harwinder Singh
+</ion-footer>

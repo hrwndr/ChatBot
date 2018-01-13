@@ -1,0 +1,9 @@
+{
+  "name": "ChatBOT",
+  "app_id": "20d4ecc6",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  },
+  "backend": "pro"
+}

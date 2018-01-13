@@ -1,0 +1,49 @@
+page-home {
+  @import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+    font-family: 'Encode Sans Expanded', sans-serif;
+    .bg {
+      background-image: url('../assets/imgs/bg.jpg');
+      background-size: cover;
+      color: #ffffff;
+    }
+    ion-header {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border: 0px;
+      overflow: hidden;
+      z-index: 999;
+      .title {
+        font-size: 27px;
+        color: #fff;
+        float: left;
+      }
+      .subtitle {
+        font-size: 15px;
+        color: #fff;
+        float: left;
+        padding-top: 3px;
+      }
+    }
+    .about {
+      opacity: 0.3;
+      border: 2px solid #fff;
+      border-radius: 5px;
+    }
+    ion-card-content h2 {
+      opacity: 1!important;
+      color: #fff;
+      padding-bottom: 5px;
+    }
+    ion-card-content h3 {
+      opacity: 1!important;
+      color: #fff;
+    }
+    ion-footer {
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      padding: 10px;
+      font-size: 15px;
+      padding-bottom: 20px;
+    }
+}
