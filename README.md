@@ -1,2 +1,2 @@
 # ChatBot
-A ionic chat application using firebase.
+An ionic chat application using firebase.
