@@ -12,12 +12,12 @@ import { HomePage } from '../pages/home/home';
 import { ChatPage } from '../pages/chat/chat';
 
 var config = {
-  apiKey: "AIzaSyBKVVmr7IxAOmSx4f1O2s0FrGDmIZgSKrs",
-  authDomain: "ngtest-1.firebaseapp.com",
-  databaseURL: "https://ngtest-1.firebaseio.com",
-  projectId: "ngtest-1",
-  storageBucket: "ngtest-1.appspot.com",
-  messagingSenderId: "1008856381010"
+  apiKey: "YOUR API KEY",
+  authDomain: "YOUR AUTHDOMAIN",
+  databaseURL: "DB URL",
+  projectId: "PROJ ID",
+  storageBucket: "STORAGE BUCKET URL",
+  messagingSenderId: "MESSAGING ID"
 };
 @NgModule({
   declarations: [
